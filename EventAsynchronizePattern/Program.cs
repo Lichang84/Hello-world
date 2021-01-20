@@ -12,6 +12,7 @@ using System.Net.Sockets;
 
 namespace EventAsynchronizePattern
 {
+	// Add comment
 	public delegate void ProgressChangedEventHandler(ProgressChangedEventArgs e);
 
 	public delegate void CalculatePrimeCompletedEventHandler(object sender, CalculatePrimeCompletedEventArgs e);
